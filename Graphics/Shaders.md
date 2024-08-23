@@ -11,5 +11,3 @@ Two types of data:
 # Fragment Shader
 
 Used to color each visible fragment of the geometry. We don't use attributes in the fragment shader. We can send a color to the fragment shader in the form of a uniform; We can also send values from the vertex shader called **varyings**. Fragment shader will *interpolate* between vertex values (e.g. vertex color). 
-
-Testing git

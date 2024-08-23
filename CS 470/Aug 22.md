@@ -1,22 +1,22 @@
 # Data and Metadata
 
-- Structured Data
+- **Structured Data
 	- Stored in standardized, tabular format (conventional relational model)
 	- Strings, numbers
-- Unstructured Data
+- **Unstructured Data
 	- Images, videos, documents
-- Semi-Structured Data
+- **Semi-Structured Data
 	- e.g. Email, web pages
 
 # Entity-Attribute-Relationship, ER Modeling
 
-Entity := a distinct object to be represented (like an OO "class")
+*Entity* := a distinct object to be represented (like an OO "class")
 	e.g. student, course, faculty, ...
-Attribute := a property to describe an entity
+*Attribute* := a property to describe an entity
 	e.g. student > fname, lname, ID, GPA, ...
 Attributes require their own metadata: type, size, etc.
 
-Relationship := an association among entities, logical structure of database
+*Relationship* := an association among entities, logical structure of database
 	e.g. Registration {student, course, faculty}
 Dominant entity has many associations, while a supportive entity has few
 
