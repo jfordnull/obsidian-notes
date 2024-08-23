@@ -11,8 +11,10 @@ Acting *humanly*:
 Acting *rationally*:
 - Can a system integrate information about its environment and formulate a plan of action?
 - Reasoning in the presence of incomplete information, identifying costs and trade-offs
+- Capacity to explain behavior 
 Thinking *humanly*:
 - Logic, sensing, learning via human mechanisms
 - Identifying "laws of thought"
+- Human-interpretable rationalizations 
 Thinking *rationally*:
 - Logic, perception, drawing conclusions
