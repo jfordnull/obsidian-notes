@@ -1,4 +1,4 @@
-- Philosophical questions about AI
+Philosophical questions about AI:
 - AI as extension, duplication of human faculty/mind
 - Brain as biological memory machine
 "Artificial" Intelligence: artifice, art, constructed intelligence, non-biological 

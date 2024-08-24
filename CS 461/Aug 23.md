@@ -18,8 +18,8 @@ AI may help us better understand our origins and internal processes, better defi
 
 For any two objects X and Y: If X=Y, then X and Y share all the same properties
 $$(a=b)\rightarrow\forall F(F(a)\leftarrow\rightarrow F(b))$$
-Ship of Theseus Paradox: Is an object the same object after having all its components replaced, one-by-one. Puzzle of material constitution, relationship between an object and its constitutive parts 
+Ship of Theseus Paradox: Is an object the same object after having all its components replaced, one-by-one? Puzzle of material constitution, relationship between an object's identity and its constitutive parts 
 
-AI struggles with continuity and *causal inference*. Problem of durability: AI video and music generation struggles beyond 30-second mark. In part, a failure of memory; Human brain has broad-scale parallelization as memory bank. Where do AI systems fail the Turing Test? In context and continuity; systems lack memory to sustain interaction. 
+AI struggles with continuity and *causal inference*. Problem of durability: AI video and music generation struggles beyond 30-second mark. In part, a failure of memory, temporal instability; Human brain has broad-scale parallelization as memory bank, sustained over time. Where do AI systems fail the Turing Test? In context and continuity; systems lack memory to sustain interaction. 
 
 Assignment moving forward: How would you design a better Turing Test?

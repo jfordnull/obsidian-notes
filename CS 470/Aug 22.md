@@ -1,11 +1,11 @@
 # Data and Metadata
 
-- **Structured Data
+- **Structured Data**
 	- Stored in standardized, tabular format (conventional relational model)
 	- Strings, numbers
-- **Unstructured Data
+- **Unstructured Data**
 	- Images, videos, documents
-- **Semi-Structured Data
+- **Semi-Structured Data**
 	- e.g. Email, web pages
 
 # Entity-Attribute-Relationship, ER Modeling
