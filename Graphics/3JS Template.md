@@ -5,7 +5,7 @@ At its most basic, we have:
 - Renderer
 ---
 
-```json
+```javascript
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 ```
@@ -40,7 +40,7 @@ camera.position.set(0, 0, 1);
 scene.add(camera);
 ```
 
-**Controls:**
+**Orbit Controls:**
 ```javascript
 const controls = new OrbitControls(camera, canvas);
 controls.enableDamping = true;

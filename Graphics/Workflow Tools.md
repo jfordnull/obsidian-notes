@@ -34,3 +34,46 @@ Then to run local server we just call
 ```
 npm run dev
 ```
+---
+# Vite Config
+
+We'll need to install vite restart plugin:
+```
+npm install vite-plugin-restart
+```
+Then, an example vite.config.js moving forward:
+```javascript
+import restart from 'vite-plugin-restart'  
+
+export default {
+	root: 'src/',
+	publicDir: '../static/',
+	server:
+	{
+		host: true,	
+		open: true
+	},
+	build:
+	{
+		outDir: '../dist',	
+		emptyOutDir: true,
+		sourcemap: true
+	
+	},
+	plugins:
+	[
+		restart({ restart: [ '../static/**', ] }) 
+	],
+}
+```
+Config exported as an object which Vite will use to set up development environment.
+- Root defines source file directory (js, css, index.html)
+- publicDir specifies static assets folder (textures, models, images); served as if available in root folder
+- Server settings:
+	- host: true means development server will be accessible to other devices on local network, not just localhost
+	- open option controls whether browser should open automatically when server starts
+- Build settings:
+	- outDir, specifies build directory, one level up from src/ (root)
+	- emptyOutDir, will empty old files from dist/ on build
+	- Source maps help with debugging by mapping minified code back to source
+- Plugins: restart will restart server if any file in static/ is modified
