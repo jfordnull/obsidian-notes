@@ -3,7 +3,7 @@ Shader language depends on target environment. The two I've seen most regularly 
 - HLSL (High Level Shader Language, Direct3D's graphics language)
 # Vertex Shader
 
-Vertex shaders position the vertices of our geometry. We'll pass vertex positions, mesh transformations, camera information to the shader. The GPU follows the shader's instructions to project each "3D" vertex onto our 2D render space, or canvas. (GPU applies the shader to thousands of vertices in parallel.)
+Vertex shaders position the vertices of our geometry. We'll pass data like vertex positions, mesh transforms, and camera projection matrix to the shader. The GPU follows the shader's instructions to project each "3D" vertex onto our 2D render space, or canvas. (GPU applies the shader to thousands of vertices in parallel.)
 
 Two types of data:
 - **Attributes**, e.g. individual vertex position, which differ per vertex

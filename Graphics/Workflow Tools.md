@@ -76,4 +76,19 @@ Config exported as an object which Vite will use to set up development environme
 	- outDir, specifies build directory, one level up from src/ (root)
 	- emptyOutDir, will empty old files from dist/ on build
 	- Source maps help with debugging by mapping minified code back to source
-- Plugins: restart will restart server if any file in static/ is modified
+- Plugins: restart will reset server if any file in static/ is modified
+
+We'll end up with a project structure that looks something like this:
+```
+\node_modules
+\src
+	html
+	js
+	css
+\static
+	models
+	textures
+	svg
+package.json
+vite.config.js
+```
