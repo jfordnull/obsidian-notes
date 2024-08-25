@@ -31,6 +31,8 @@ ODE := Ordinary Differential Equation
 - Bass diffusion model
 (PDE := Partial Differential Equation)
 
+$$u^Tv= u_1v_1+...+u_nv_n$$
+
 
 
 

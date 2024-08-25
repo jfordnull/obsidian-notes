@@ -15,6 +15,11 @@ Where $N$ is some integer.
 - Conductor: electrons can move freely
 - Insulator: electrons can't move freely
 - Semiconductors: Somewhere in between (e.g. silicon)
+
+| Particle    | Charge                       | Mass                      |     |
+| ----------- | ---------------------------- | ------------------------- | --- |
+| Electron(e) | $-1.6021675 \times 10^{-19}$ | $9.1094\times 10^{-31}$   |     |
+| Proton(p)   | $1.6021675 \times 10^{-19}$  | $1.67262 \times 10^{-27}$ |     |
 # 22.3
 
 **Coulomb's Law**
@@ -46,3 +51,12 @@ $$\vec{E}=k_e\frac{q}{r^2}\hat{r}$$
 Electric Field at point P due to a group of source charges, vector sum:
 $$\vec{E}=k_e\sum\frac{q_i}{r^2_i}\hat{r}_i$$
 Where $r_i$ is the distance of the $i$th source charge $q_i$ to the point P and $\hat{r}_i$ is a unit vector directed from $q_i$ toward P.
+# 22.5
+
+**Electric Field Lines**: The number of lines drawn leaving a positive charge or approaching a negative charge is proportional to the magnitude of the charge.
+# 22.6
+
+**Motion of a Charged Particle:**
+$$\sum\vec{F}=q\vec{E}=m\vec{a}$$
+And the acceleration of particle is:
+$$\vec{a}=\frac{q\vec{E}}{m}$$
