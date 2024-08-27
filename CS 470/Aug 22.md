@@ -26,12 +26,9 @@ Data definition and application program are separated. (Principle of program-dat
 
 # File-Based v. Database Approach
 
-Limitations of File-Based Approach:
+Limitations of File-Based Approach (each program defines, manages own data):
 - Separation, isolation of data
 - Duplication of data
 - Program-data dependence
 - Incompatible file formats
 
-Database Approach:
-- Data Definition Language (DDL)
-	- 
