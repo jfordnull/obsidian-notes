@@ -33,3 +33,9 @@ $$\Phi_E\equiv\int_{surface}\vec{E}\cdot dA$$
 Often we evaluate flux for a *closed surface*, meaning it divides space into an inside and out (e.g. sphere). Using $\oint$ to represent an integral over a closed surface, we can write net flux through a closed surface as:
 $$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\oint E_ndA$$
 Where $E_n$ represents component of electric field normal to the surface.
+# 23.3
+
+**Gauss's Law**
+This section describes general relationship between net electric flux through a closed surface (called *gaussian surface*) and the charge enclosed by the surface - a relationship known as *Gauss's Law*:
+$$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\frac{q_{in}}{\epsilon_0}$$
+Net flux through *any* closed surface surrounding a point charge $q$ is given by $\frac{q}{\epsilon_0}$. (Therefore, net flux $\propto$ to the charge inside surface.)
