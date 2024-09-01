@@ -39,4 +39,29 @@ Where $E_n$ represents component of electric field normal to the surface.
 This section describes general relationship between net electric flux through a closed surface (called *gaussian surface*) and the charge enclosed by the surface - a relationship known as *Gauss's Law*:
 $$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\frac{q_{in}}{\epsilon_0}$$
 Net flux through *any* closed surface surrounding a point charge $q$ is given by $\frac{q}{\epsilon_0}$. (Therefore, net flux $\propto$ to the charge inside surface.)
+
+Gauss's Law is useful for determining electric fields when the charge distribution is highly symmetric.
 # 23.4
+
+**Applications of Gauss's Law to Various Charge Distributions**
+(Remember: a Gaussian surface is an imaginary surface you construct)
+# Example 1: A Spherically Symmetric Charge Distribution
+
+Insulating solid sphere of radius $\alpha$ has a uniform volume charge density $\rho$ and carries total positive charge $Q$.
+
+**Example 1.A: Electric Field at a Point Outside the Sphere** 
+for ($r > \alpha$): 
+$$E=\frac{Q}{4\pi\epsilon_0r^2}=k_e\frac{Q}{r^2}$$
+**Example 1.B: Electric Field at a Point Inside the Sphere**
+for $(r<\alpha)$:
+$$E=\frac{Q/\frac{4}{3}\pi\alpha^3}{3(1/4\pi k_e)}r=k_e\frac{Q}{\alpha^3}r$$
+# Example 2: A Cylindrically Symmetric Charge Distribution
+
+Find the electric field a distance $r$ from a line of positive charge of infinite length and constant charge per unit length $\lambda$:
+$$E=\frac{\lambda}{2\pi\epsilon_0r}=2k_e\frac{\lambda}{r}$$
+# Example 3: A Plane of Charge
+
+Find the electric field due to an infinite plane of positive charge with uniform surface charge density $\sigma$
+$$E=\frac{\sigma}{2\epsilon_0}$$
+
+
