@@ -39,9 +39,6 @@ Presentation:
 - Takeaways
 
 # IT at Commerce Bank
-- Software Development
-- Cool offices? Idk
-- Will lead you on for three months
 
 **DAP**
 - Developer Acceleration Program leads to Associate Developer position, full-time role after graduation
