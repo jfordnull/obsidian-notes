@@ -1,3 +1,5 @@
+(Inspired by Bruno Simon's 3JS template)
+
 At its most basic, we have:
 - Scene
 - Objects
@@ -15,16 +17,16 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 const scene = new THREE.Scene();
 const canvas = document.querySelector('canvas.webgl');
 ```
-(Selecting a canvas element with class="webgl")
+(Selecting canvas element with class="webgl")
 
-For our object, we'll need a *mesh* consisting of a *geometry* and a *material*. e.g. red default cube:
+For our object, we'll need a mesh consisting of a *geometry* and a *material*. e.g. red default cube:
 ```javascript
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 ```
-(In this case, the argument passed to the basic material constructor is itself an object {} containing all our options.)
+(In this case, the argument passed to the basic material constructor is itself an object {} containing all our options. See 3JS docs for details)
 
 **Aspect Ratio** and **Camera**:
 ```javascript
