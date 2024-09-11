@@ -10,10 +10,11 @@ $$U=
 \begin{pmatrix} 
 u_{11} & u_{12} & ... & u_{1i} & ... & u_{1j} & ... & u_{1n} \\ 
 0 & u_{22} & ... & u_{2i} & ... & u_{2j} & ... & u_{2n} \\
-\vdots & \vdots & & \vdots & & \vdots & & \vdots \\
+\vdots & \vdots & \ddots & \vdots & \ddots & \vdots & \ddots & \vdots \\
 0 & 0 & ... & u_{ii} & ... & u_{ij} & ... & u_{in} \\
-\vdots & \vdots & & \vdots & & \vdots & & \vdots \\
+\vdots & \vdots & \ddots & \vdots & \ddots & \vdots & \ddots & \vdots \\
 0 & 0 & ... & 0 & ... & 0 & ... & u_{un} \\
 \end{pmatrix}
 $$
+
 

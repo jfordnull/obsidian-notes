@@ -29,10 +29,14 @@ To define "rational" we require:
 - Agent's percept sequence
 Cyclic or recursive mapping of percepts to actions
 
+Environment > Sensors > Percept (Observations) > Agent Function > Actuator > Action
+
 # Heuristics
 AI often relies on applying **heuristics** (a "rule of thumb", which usually gets an approximate answer *quickly*) rather than algorithms (which always gets a correct answer, exactly, *eventually*).
 - e.g. A very simple heuristic is the breaking of a stalemate or deadlock through arbitrary decision-making, common in AI for games
 - If we need to solve systems of arbitrary complexity, or functionally infinite possible solutions, algorithmic methods (which provide the *best*) answer, exceed the time we have. Goal of AI heuristics is to reduce 
+
+Perception is 9/10ths what we expect to see; We filter data-collection/percepts according to objective function
 
 
 
