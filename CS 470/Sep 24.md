@@ -42,6 +42,6 @@ The **cardinality** of a relation is how many tuples it contains
 		- In a base relation, no attribute of a primary key can be null
 	- Referential Integrity Constraints
 		- Linkage of foreign key values (e.g. I change the branch no. of a staff member to B10, but does that branch exist? What if a branch closes? I need to update foreign keys in staff)
-		- If a foreign key exists in R, the foreign key value must match a candidate key value of some tuple in its home relation or the foreign key value must be wholly null
+		- If a foreign key exists in R (child), the foreign key value must match a candidate key value of some tuple in its home relation (parent) or the foreign key value must be wholly null
 - Null: Value is not available or not applicable (e.g. A person without a middle name, middle name is N/A)
 	- Deals with incomplete or exceptional data. Represents the absence of a value (null != spaces or zero)
