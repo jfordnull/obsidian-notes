@@ -1,0 +1,25 @@
+# Properties of Heuristics
+
+- Optimistic. Should *underestimate* actual cost to the goal. 
+	- Ensures we don't overshoot the actual goal. We don't want to reject an option as "too expensive" when the problem is that our heuristic is not comprehensive/correct.
+	- Different measurements of distance/cost. e.g., Euclidean distance v. Mahalanobis distance ("block" or grid/unit-based distance)
+- Should be *monotonic* (function moves in one direction, or laterally if no change); as we progress, the heuristic estimate should *decrease*.
+	- This refers to the heuristic, not the solver (e.g., route-finder may need to backtrack, detour)
+	- We can model error as the inverse of objective
+- A search algorithm that lets us search a smaller portion of the tree before finding a goal (i.e., a reduction in total search space, least scope) is said to be *more informed*.
+- Some search algorithms only examine a single path (greedy); they can get stuck on a local optimum (only locally informed).
+- Examples: Hill climbing (gradient descent), beam search (similar to genetic methodology), best-first
+	- Other methods include the distance/cost from the root as part of their calculation
+- *Branch* and *bound* methods always look backwards to monitor progress so far
+	- Adding an estimated cost to reach the goal gives us the A* algorithm
+- Other methods include *constraint satisfaction* (N-queen solver) and bidirectional search
+	- Limiting factor is the *evaluator*, metric
+- Solving a problem generally involves solving subproblems
+	- In some cases, we solve all problems; in others, only a subset. Subproblems can be sequentially constrained
+	- We can model these situations using AND/OR Trees
+- The goal of all heuristics is to reduce search space
+	- Well-suited to problems showing high combinatoric complexity
+- Sample heuristics:
+	- In chess, look at capturing moves first
+- Gradient:
+	- $df=\nabla f \cdot dx$ 
