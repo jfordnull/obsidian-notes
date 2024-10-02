@@ -1,0 +1,5 @@
+- A search algorithm is *admissible* if it always returns an optimal solution if such a solution exists
+- A search algorithm is *monotonic* or *consistent* if it also guarantees optimal paths to intermediate nodes
+	- A monotonic algorithm is always admissible
+- Suppose we have two admissible heuristics, h1 and h2. If h1(N) < h2(N), h2 is said to be *more informed*
+- 
