@@ -43,7 +43,7 @@ Properties of algorithms:
 	- Nodes visited in level order. (Therefore optimal; will return shortest path for uniform-cost search space.) Complete, like DFS.
 	- Storage complexity is terrible. $O(b^{d+1})$ (b:=branching factor, d:=depth of solution)
 - IDDFS:
-	- Exhaustive DFS to a certain limiting depth, increasing depth if solution isn't found. Advantage: gives us something like BFS with DFS storage-complexity $O(bd)$
+	- Exhaustive DFS to a certain limiting depth, increasing depth if solution isn't found. Advantage: gives us something like BFS with DFS storage-complexity $O(d)$ (Generate children only as needed)
 	- Optimal; time-complexity still exponential
 - Bi-Directional Search
 	- Two searches at once: One beginning at origin and one working backwards from destination. Sometimes useful for random exploration of very large spaces.
@@ -181,4 +181,8 @@ Poor/sub-optimal results of GA can be a consequence of:
 - Culling the population too aggressively
 
 The fitness function may not always return higher values with each subsequent generation.
+
+In general, stochastic methods (such as GA) can provide solutions that are good, but we have way of knowing how close to the true optimum we are.
+
+One way to improve the performance of GAs is to use a larger population pool.
 
