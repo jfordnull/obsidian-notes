@@ -47,7 +47,7 @@ Properties of algorithms:
 	- Optimal; time-complexity still exponential
 - Bi-Directional Search
 	- Two searches at once: One beginning at origin and one working backwards from destination. Sometimes useful for random exploration of very large spaces.
-	- Average depth of d/2 means storage complexity of $2(b^{d/2})$. Still better than BFS
+	- Average depth of d/2 means storage complexity of $O(2b^{d/2})$. Still better than BFS
 
 **Greedy Algorithms**
 - Always selecting the path that looks best based on local information. Dijkstra's is an example.
@@ -112,6 +112,8 @@ A "correct" solution is complete and consistent
 
 An advantage of constraint satisfaction is that it's *general*. We can write a general constraint satisfaction solver and apply it to any problem (if formulated correctly)
 
+Another advantage is that they *do not require domain knowledge* to solve a problem efficiently
+
 **Constraints**
 - Unary - Applies to 1 variable
 - Binary - Applies to 2 variables
@@ -138,7 +140,9 @@ K-Consistency: For any assignment of consistent values to $k-1$ variables, a con
 AC-3:
 - Popular constraint propagation algorithm for arc-consistency. Works by maintaining a queue of arcs to consider. Binary constraints become two arcs, one in each direction.
 - Worst case time-complexity: $O(cd^3)$
-- After running AC-3, we're left with a CSP similar to the original (same solutions), but with smaller domains so that it can be search faster. 
+- After running AC-3, we're left with a CSP similar to the original (same solutions), but with smaller domains so that it can be searched faster. 
+
+For large integer-value problems, tracking each individual separately may not be practical. In those cases, we use *bounds propagation*.
 
 ---
 
