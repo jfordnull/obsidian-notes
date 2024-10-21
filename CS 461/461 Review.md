@@ -43,7 +43,7 @@ Properties of algorithms:
 	- Nodes visited in level order. (Therefore optimal; will return shortest path for uniform-cost search space.) Complete, like DFS.
 	- Storage complexity is terrible. $O(b^{d+1})$ (b:=branching factor, d:=depth of solution)
 - IDDFS:
-	- Exhaustive DFS to a certain limiting depth, increasing depth if solution isn't found. Advantage: gives us something like BFS with DFS storage-complexity $O(d)$ (Generate children only as needed)
+	- Exhaustive DFS to a certain limiting depth, increasing depth if solution isn't found. Advantage: gives us something like BFS with DFS storage-complexity $O(bd)$ Some ambiguity here, but for DFS or IDDFS, if we generate children only as needed space-complexity is $O(d)$
 	- Optimal; time-complexity still exponential
 - Bi-Directional Search
 	- Two searches at once: One beginning at origin and one working backwards from destination. Sometimes useful for random exploration of very large spaces.
